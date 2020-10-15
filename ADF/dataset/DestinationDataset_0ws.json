@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_0ws",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragedest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "s3inbound"
+			}
+		}
+	}
+}
