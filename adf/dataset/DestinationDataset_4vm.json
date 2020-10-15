@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_4vm",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "s3inbound"
+			}
+		}
+	}
+}
